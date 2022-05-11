@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list{
+    display: flex;
+
+}
+.list>li{
+    margin: 5px;
+    list-style: none;
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+
+}

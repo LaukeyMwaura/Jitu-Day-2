@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.about {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+}
+.heading{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+    margin: 1em;
+}
+.subheading{ 
+    text-align: center;
+    font-size: 1.8em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+    margin: 1em;}
+.list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.list>li{
+    margin: 10px 5px ;
+    font-size: 1.5rem;
+    padding: 10px 10px 0 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+li{
+    list-style: none;
+}
+.links{
+    padding:10px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(102, 118, 190);
+
+}
+
+.text {
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+
+.skills {
+    color: rgb(180, 153, 153);
+    text-align: center; 
+    font-size: 2rem;
+}
